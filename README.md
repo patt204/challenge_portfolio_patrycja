@@ -67,13 +67,13 @@ Tak zauważyłam błędy w sekcji Dodawanie/Edycja danych zawodnika:
 
 ## Subtask 1 - Pisanie przypadków testowych na podstawie User Story.
 
-Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1CwSIM1bH1gYjMafQJfCCrvNTOJXZ55c1
-Bezpośredni link do pliku: https://docs.google.com/spreadsheets/d/1W2ljHweillQ2y2ijniIaCDaWBj7WO0SBsj6qa5o1cQ0/edit#gid=0
+  * Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1CwSIM1bH1gYjMafQJfCCrvNTOJXZ55c1
+  * Bezpośredni link do pliku: https://docs.google.com/spreadsheets/d/1W2ljHweillQ2y2ijniIaCDaWBj7WO0SBsj6qa5o1cQ0/edit#gid=0
 
-## Subtask 2 - Pisanie przypadków testowych na podstawie “własnych doświadczeń.
+## Subtask 2 - Pisanie przypadków testowych na podstawie “własnych doświadczeń".
 
-Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1CwSIM1bH1gYjMafQJfCCrvNTOJXZ55c1
-Bezpośredni link do pliku: https://docs.google.com/spreadsheets/d/1WevHtE3Q_qSD1ozrcVm9zbQMIpP_ne9Ay0cYApuUqqA/edit#gid=0
+  * Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1CwSIM1bH1gYjMafQJfCCrvNTOJXZ55c1
+  * Bezpośredni link do pliku: https://docs.google.com/spreadsheets/d/1WevHtE3Q_qSD1ozrcVm9zbQMIpP_ne9Ay0cYApuUqqA/edit#gid=0
 
 ## Subtask 3 - Po co piszemy test case’y?
 

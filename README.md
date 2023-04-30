@@ -1,3 +1,10 @@
+# "Zostań Testerem Manualnym" - 7-weeks course organized by DareIT (https://www.dareit.io/). 
+The scope of the course: 
+* Exploratory tests, 
+* Test cases, 
+* Error reporting, 
+* Mobile application testing.
+
 # TASK 1
 
 ## Subtask 1

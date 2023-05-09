@@ -86,3 +86,9 @@ Tak zauważyłam błędy w sekcji Dodawanie/Edycja danych zawodnika:
 
 Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności. Po zakończeniu testów, na podstawie przypadków testowych możemy budować nasze raporty z wykonanych testów. 
 
+# TASK 3
+
+## Subtask 3 - Raport z wykonanych testów
+  
+  * Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1kKj5Jg0lR5Rf8NZOv2dzTFuQTll0wD7q
+

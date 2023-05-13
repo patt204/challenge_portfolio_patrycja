@@ -92,3 +92,19 @@ Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne moż
   
   * Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1kKj5Jg0lR5Rf8NZOv2dzTFuQTll0wD7q
 
+# TASK 4
+
+## Subtask 2 - Testowanie eksploracyjne i raportowanie błędów
+  
+  * Link do folderu na dysku: https://drive.google.com/drive/u/0/folders/1i_w9w6Mjixeui0Ol84I0NOQWcpDKIQCz
+
+## Subtask 3 - Do czego służy ta aplikacja?
+
+Aplikacja mobilna OLX
+1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji? - Głównym celem aplikacji jest łączenie małych firm lub prywatnych sprzedawców z kupującymi, ale również jest tablicą ogłoszeń, dużą rolę odgrywają ogłoszenia o pracę i usługi reklamowe. 
+3. Kto ma być użytkownikiem końcowym aplikacji? - Przy tak szerokim zakresie zastosowań istnieje wiele różnych typów użytkowników końcowych, aplikacja jest przeznaczona głównie dla przeciętnych użytkowników, dlatego musi być prosta w obsłudze.
+4. Czy według Ciebie aplikacja jest user friendly? - Uważam, że aplikacja jest przyjazna dla użytkownika. Większość funkcji jest intuicyjna i prosta w obłudze.
+5. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? 
+* Przesuwając palcem w lewo po galerii zdjęć oferty, użytkownik dociera do końca galerii i ponownie przesuwa w lewo, otwiera się inna oferta (np. następna z wyników wyszukiwania). O ile przeglądanie ofert jest wygodne, o tyle szybkie przeglądanie galerii w celu znalezienia konkretnego zdjęcia, a przypadkowe przełączenie się na inną ofertę może być irytujące dla użytkownika.
+6. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej? - Z punktu widzenia telefonu z systemem Android wygląda tp bardzo podobnie. Jedyne różnice jakie dostrzegam to że w aplikacji natywnej przy logowaniu się otwiera się dodatkowe okno w aplikacji, które łączy się z przeglądarką w celu zalogowania i weryfikacji danych. Przy aplikacji internetowej dzieje się to bezpośrednio.
+

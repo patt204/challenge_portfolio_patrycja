@@ -107,3 +107,21 @@ Aplikacja mobilna OLX
 5. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? - Przesuwając palcem w lewo po galerii zdjęć oferty, użytkownik dociera do końca galerii i ponownie przesuwa w lewo, otwiera się inna oferta (np. następna z wyników wyszukiwania). O ile przeglądanie ofert jest wygodne, o tyle szybkie przeglądanie galerii w celu znalezienia konkretnego zdjęcia, a przypadkowe przełączenie się na inną ofertę może być irytujące dla użytkownika.
 6. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej? - Z punktu widzenia telefonu z systemem Android wygląda tp bardzo podobnie. Jedyne różnice jakie dostrzegam to że w aplikacji natywnej przy logowaniu się otwiera się dodatkowe okno w aplikacji, które łączy się z przeglądarką w celu zalogowania i weryfikacji danych. Przy aplikacji internetowej dzieje się to bezpośrednio.
 
+# TASK 5
+
+## Subtask 3 - Poniżej znajduje się kilka zadań związanych z SQLem. Chciałabym, żebyś w pliku readme file wypisał_a/ wkleił_a treść zadania, a poniżej wpisał_a zapytanie jakie użyłe_aś, aby uzyskać odpowiedź. Pod zapytaniem wklej prt screena z wynikiem zapytania
+
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+SELECT * FROM actors ORDER BY surname ASC
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/c7dcde83-b146-4fae-9136-e5b2185bc6ee)
+
+2. Wyświetl film, który powstał w 2019 roku.
+
+Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+Wyświetl dane klienta, który nie ma podanego adresu email.
+Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.

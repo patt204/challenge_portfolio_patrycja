@@ -116,12 +116,38 @@ SELECT * FROM actors ORDER BY surname ASC
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/c7dcde83-b146-4fae-9136-e5b2185bc6ee)
 
 2. Wyświetl film, który powstał w 2019 roku.
+SELECT * FROM movies WHERE year_of_production = '2019'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/8fdd1048-947f-4c20-9558-e779d8e94404)
 
-Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
-Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
-Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
-Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
-Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
-Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
-Wyświetl dane klienta, który nie ma podanego adresu email.
-Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+SELECT * FROM movies WHERE year_of_production BETWEEN '1900' AND '1999'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/0c051429-b6a5-4971-ab31-1cce0c59aec9)
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+SELECT title, price FROM movies WHERE price< '7$'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/3945c468-3890-4f67-ae68-3599b58bee2b)
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+SELECT * FROM actors WHERE actor_id >= '4' AND actor_id <= '7'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/934dcfc1-a3c1-4815-8d3d-2bfd823ecaad)
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+SELECT * FROM customers WHERE customer_id = '2' OR customer_id = '4' OR customer_id = '6'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/89222634-1075-4b3c-a80a-4adbc7ceb225)
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+SELECT * FROM customers WHERE customer_id IN ( 1, 3, 5)
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/f2193390-4b6b-47a2-a5de-68f585e641d8)
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+SELECT * FROM actors WHERE name LIKE 'An%'
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/456d1787-2ce1-41e6-a1ba-1247fe1d603b)
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+SELECT * FROM customers WHERE email IS NULL
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/d00fd688-5779-43b2-836c-38d928d98699)
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/6b584661-2885-412b-9cba-84a4236b3f15)
+

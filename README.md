@@ -161,3 +161,30 @@ SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
 
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/6b584661-2885-412b-9cba-84a4236b3f15)
 
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.
+UPDATE customers SET surname = 'Miler' WHERE customer_id = 3
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/5f897807-525c-4df7-9f96-ef3b3a1852c4)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+SELECT * FROM sale JOIN customers ON customers.customer_id WHERE movie_id = 4
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/9363825e-b82b-49fb-922c-f5c0fc7059a1)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+UPDATE customers SET email = 'pati@mail.com' WHERE customer_id = 4
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/a2d796ba-49d2-442b-ac86-a9faff039404)
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+SELECT sale_date, name, surname, title FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id INNER JOIN movies ON movies.movie_id = sale.movie_id
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/3e4a169a-2739-4361-a6d4-bc0d788d774b)
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+ALTER TABLE customers ADD pseudonym char (3) not null
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/4cdd743c-3a79-4fbe-b831-bc2185a82a21)
+
+

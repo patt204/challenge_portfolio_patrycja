@@ -187,4 +187,28 @@ ALTER TABLE customers ADD pseudonym char (3) not null
 
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/4cdd743c-3a79-4fbe-b831-bc2185a82a21)
 
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+SELECT DISTINCT title FROM sale INNER JOIN movies ON sale.movie_id = movies.movie_id
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/8f0de880-6909-4d0d-9ef3-d140f420d4c0)
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name ASC
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/d71305d1-5e3e-49fe-86db-d889d4fc6ebb)
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+UPDATE movies SET price = price + 2.5;
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/c1f3a0ad-020d-421a-91ea-6f36e9550c95)
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+SELECT name, surname,title FROM actors INNER JOIN movies WHERE actor_id = 4
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/a7e2e518-d7aa-486c-a2b8-3f6917191912)
+
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+INSERT INTO customers VALUES (7, 'Honia', ' Stuczka-Kucharska', ' honia@mail.com', 'Hoa')
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/9ba37f33-ee73-485c-9dfa-f9ff327240d0)
 

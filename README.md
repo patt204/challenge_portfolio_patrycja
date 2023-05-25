@@ -161,6 +161,10 @@ SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
 
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/6b584661-2885-412b-9cba-84a4236b3f15)
 
+# TASK 6
+
+## Subtask 1 - Krótki kurs podstaw SQL
+
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.
 UPDATE customers SET surname = 'Miler' WHERE customer_id = 3
 
@@ -211,4 +215,9 @@ SELECT name, surname,title FROM actors INNER JOIN movies WHERE actor_id = 4
 INSERT INTO customers VALUES (7, 'Honia', ' Stuczka-Kucharska', ' honia@mail.com', 'Hoa')
 
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/9ba37f33-ee73-485c-9dfa-f9ff327240d0)
+
+## Subtask 2 - Test
+
+![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/15a034cd-3057-45b0-9de3-0b1b5c89e7fd)
+
 

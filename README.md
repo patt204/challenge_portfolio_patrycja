@@ -220,4 +220,6 @@ INSERT INTO customers VALUES (7, 'Honia', ' Stuczka-Kucharska', ' honia@mail.com
 
 ![image](https://github.com/patt204/challenge_portfolio_patrycja/assets/60150219/15a034cd-3057-45b0-9de3-0b1b5c89e7fd)
 
+## Subtask 3 - Tworzymy portfolio
 
+https://github.com/patt204/Portfolio
